@@ -1,0 +1,90 @@
+.masthead {
+    display: flex;
+    align-items: center;
+    flex-basis: 6rem;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: #d12f2e;
+    color: #fff;
+    padding: 0 5rem;
+}
+.logo h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    letter-spacing: -0.1rem;
+    white-space: nowrap;
+}
+.vault-search {
+    flex: 1 0 19.2rem;
+    margin: 0 1.6rem;
+    position: relative;
+}
+.search-input {
+    font-size: 1.8rem;
+    font-weight: 400;
+    height: 4.4rem;
+    width: 98%;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    caret-color: #fff;
+    padding-left: 4.4rem;
+    border: none;
+}
+.search-input:hover,
+.search-input:focus {
+    background-color: rgba(255, 255, 255, 0.3);
+    outline: none;
+}
+.search-input::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input:-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input::-ms-input-placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.search-input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.user-settings {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 1.2;
+    height: 100%;
+    padding: 0 0.8rem;
+    cursor: pointer;
+}
+.user-settings:hover {
+    background-color: #f14f4e;
+}
+
+.user-image {
+    font-size: 3.2rem;
+}
+
+.user-info {
+    margin: 0 1rem;
+}
+
+.user-email {
+    font-size: 1.3rem;
+}
+
+.user-type {
+    font-size: 1.1rem;
+    color: #f1c1c0;
+}
+
+.user-arrow-btn {
+    font-size: 1.5rem;
+}
+
+
+
